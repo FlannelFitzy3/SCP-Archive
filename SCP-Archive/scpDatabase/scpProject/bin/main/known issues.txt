@@ -1,0 +1,7 @@
+known issues:
+while rebuilding archive, connection can reset and cause one or multiple scps to not be retrieved from the website
+while browsing the pictures in pictures directory, an error can be thrown saying there is an error reading the file, no known reason
+some photos are just white instead of the intended picture
+app must restart after rebuilding archive due to a multi-threading side effect where it creates an SCP instance and inserts it out of order into the scpList, restarting the app and building it without the web fixes this issue
+
+
